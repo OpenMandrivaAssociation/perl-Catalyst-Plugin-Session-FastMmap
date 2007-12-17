@@ -17,7 +17,6 @@ BuildRequires:	perl-Catalyst-Plugin-Session
 BuildRequires:	perl-URI-Find
 BuildRequires:  perl-Cache-FastMmap
 BuildArch:	noarch
-Buildroot:	%{_tmppath}/%{name}-root
 
 %description
 Fast sessions.

@@ -1,7 +1,7 @@
 %define realname Catalyst-Plugin-Session-FastMmap
 %define name perl-%{realname}
 %define version 0.12
-%define release %mkrel 3
+%define release %mkrel 5
 
 Summary:	File storage backend for session data
 Name:		%{name}

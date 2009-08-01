@@ -13,6 +13,7 @@ Source0:	http://www.cpan.org/modules/by-module/Catalyst/%{upstream_name}-%{upstr
 
 BuildRequires:	perl-Catalyst
 BuildRequires:	perl-Catalyst-Plugin-Session
+BuildRequires:	perl(Class::Data::Inheritable)
 BuildRequires:	perl-URI-Find
 BuildRequires:  perl-Cache-FastMmap
 BuildArch:	noarch

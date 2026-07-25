@@ -2,14 +2,14 @@
 %define upstream_version 0.13
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 
 Summary:	File storage backend for session data
 License:	Artistic/GPL
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/Catalyst/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Catalyst-Plugin-Session-FastMmap
+Source0:	https://cpan.metacpan.org/authors/id/B/BO/BOBTFISH/Catalyst-Plugin-Session-FastMmap-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
